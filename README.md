@@ -39,4 +39,5 @@ print("Faishal")
 Dan terakhir pada kode program diatas berfungsi untuk mencetak suatu nama untuk dijadikan sebuah perulangan
 
 #### Contoh Luaran Kode Program
-![alt text](?raw=true)
+![alt text](https://github.com/faishal521/G1F022017_Muhammad-Faishal-Makarim_TUGAS1-PBO/blob/main/public/looping1%20Luaran.png?raw=true)
+Pada Gambar diatas merupakan sebuah tampilan dari output yang telah dijalankan pada sebuah kode program Perulangan tersebut, Bisa Dilihat bahwa Pada nilai i sama dengan 10 dan 20, "Faishal" dicetak sebanyak tiga kali. 
