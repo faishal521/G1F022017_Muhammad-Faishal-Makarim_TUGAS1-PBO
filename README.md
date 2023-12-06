@@ -142,3 +142,16 @@ Dan terakhir merupakan Sebuah kode program untuk Mengambil input string lagi unt
 
 Setiap kali pengguna memasukkan string, program akan memberikan respons sesuai dengan jenis string yang dimasukkan. Ketika pengguna memasukkan "selesai", program akan berhenti. 
 
+### 3. Buatlah sebuah variabel dengan tipe data array, kemudian tampilkan semua nilai dalam variabel tersebut menggunakan perulangan for
+#### 3.1 Apa itu Variabel dan Array?
+Variabel dan array adalah dua konsep dasar dalam pemrograman komputer yang digunakan untuk menyimpan dan mengorganisir data. Berikut penjelasan singkat tentang keduanya:
+##### Variabel
+- Sebuah variabel adalah lokasi penyimpanan yang diberi nama di dalam program komputer.
+- Variabel digunakan untuk menyimpan nilai, dan nilai ini dapat berubah selama jalannya program.
+- Contoh: int angka = 10; di mana angka adalah variabel yang menyimpan nilai 10 bertipe data integer.
+##### Array
+- Sebuah array adalah struktur data yang menyimpan sekumpulan nilai dengan tipe data yang sama dalam satu variabel.
+- Setiap elemen dalam array diakses melalui indeks (nomor urut), yang dimulai dari 0.
+- Contoh: int nilai[5] = {10, 20, 30, 40, 50}; di mana nilai adalah array yang menyimpan lima nilai bertipe data integer.
+#### 3.2 Kode Program 
+
