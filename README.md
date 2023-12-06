@@ -15,5 +15,9 @@
 ### 1. Buatlah perulangan hingga 100 menggunakan Python dengan output sebagai berikut: (https://github.com/randiijulian/randiijulian/assets/81604461/e32b6d92-7e3a-4323-a0e3-711009112c8e)
 #### Apa itu Looping?
 Perulangan atau disebut Looping adalah bahasa pemrograman dan algoritma yang kegunaannya untuk mengulang sebuah perintah/intruksi yang dibuat dalam script sesuai dengan jumlah yang telah ditentukan. Perulangan bertujuan untuk mempersingkat waktu pernyataan program yang harus ditulis dalam jumlah yang banyak.
+#### Pembahasan
+![alt text](https://github.com/faishal521/G1F022017_Muhammad-Faishal-Makarim_TUGAS1-PBO/blob/main/public/looping1.png?raw=true)
 
+Pada Kode Diatas adalah sebuah program Python yang menggunakan perulangan for untuk mencetak angka dari 1 hingga 20. Jika suatu angka habis dibagi 10, maka program akan mencetak "Faishal" sebanyak tiga kali. Jika tidak, program akan mencetak angka tersebut.
 
+for i in range(1, 21):
