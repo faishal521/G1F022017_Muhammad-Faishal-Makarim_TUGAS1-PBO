@@ -12,5 +12,8 @@
 
 ## Pembahasan
 
-1. Buatlah perulangan hingga 100 menggunakan Python dengan output sebagai berikut:
-   (https://github.com/randiijulian/randiijulian/assets/81604461/e32b6d92-7e3a-4323-a0e3-711009112c8e)
+### 1. Buatlah perulangan hingga 100 menggunakan Python dengan output sebagai berikut: (https://github.com/randiijulian/randiijulian/assets/81604461/e32b6d92-7e3a-4323-a0e3-711009112c8e)
+#### Apa itu Looping?
+Perulangan atau disebut Looping adalah bahasa pemrograman dan algoritma yang kegunaannya untuk mengulang sebuah perintah/intruksi yang dibuat dalam script sesuai dengan jumlah yang telah ditentukan. Perulangan bertujuan untuk mempersingkat waktu pernyataan program yang harus ditulis dalam jumlah yang banyak.
+
+
