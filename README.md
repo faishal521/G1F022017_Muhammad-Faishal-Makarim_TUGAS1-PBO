@@ -172,4 +172,6 @@ print(fruit)
 Pada Kode Program diatas berfungsi untuk Setiap elemen (buah) dalam list akan dicetak. Variabel fruit akan mengambil nilai dari setiap elemen dalam list saat perulangan berlangsung.
 
 #### 3.4 Contoh Luaran Kode Program
+![alt text](https://github.com/faishal521/G1F022017_Muhammad-Faishal-Makarim_TUGAS1-PBO/blob/main/public/array%20luaran.png?raw=true)
 
+Kode tersebut mencetak setiap nilai dalam list Array fruits ke layar. Ini sangat berguna ketika ingin melakukan operasi atau menampilkan setiap elemen dalam suatu list.
