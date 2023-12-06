@@ -1,12 +1,12 @@
 # a. For Loop
-'''for char in "Halo,Faishal!":
+for char in "Halo,Faishal!":
     if char.isalpha():
         print(f"{char} adalah huruf.")
     elif char.isdigit():
         print(f"{char} adalah angka.")
     else:
         print(f"{char} adalah karakter spesial.")
-'''
+
         
 # b. While Loop
 input_str = input("Masukkan string (ketik 'selesai' untuk Stop Running): ")
