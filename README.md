@@ -98,6 +98,44 @@ Pada Kode tersebut memberikan output yang menjelaskan setiap karakter dalam stri
 While Loop adalah metode perulangan dimana ada kondisi yang harus dipenuhi supaya looping bisa berjalan terus. While Loop mengulangi eksekusi sub diagram didalamnya sampai terminal kondisi menerima nilai Boolean tertentu. Nilai Boolean tergantung dari sifat dari While Loop. While loops akan mengeksekusi if condition secara terus menerus asalkan condition statement itu menghasilkan pernyataan “True” dan while loops statement dilakukan secara uncountable (secara terus menerus, jika jumlah perulangan tidak ditemukan atau ditentukan).
 
 #### 2.7 Kode Program (Penggunaan While Loops
-![alt text](?raw=true)
+![alt text](https://github.com/faishal521/G1F022017_Muhammad-Faishal-Makarim_TUGAS1-PBO/blob/main/public/ifels2%20.png?raw=true)
 
+
+Kode di atas adalah program Python yang meminta pengguna untuk memasukkan sebuah string. Program akan terus meminta input string sampai pengguna memasukkan string "selesai". Setiap kali pengguna memasukkan string, program akan memeriksa apakah string tersebut terdiri dari huruf, angka, atau kombinasi karakter, dan mencetak hasilnya. 
+#### 2.8 Penjelasan Setiap Kode
+```sh
+input_str = input("Masukkan string (ketik 'selesai' untuk Stop Running): ")
+```
+Pada Kode Program Diatas berfungsi untuk Mengambil input string dari pengguna.
+```sh
+while input_str.lower() != 'selesai':
+```
+Pada Kode Program Diatas berfungsi untuk Memulai sebuah loop while yang akan terus berjalan selama input string bukan "selesai" (tanpa memperhatikan huruf besar atau kecil).
+### Didalam Perkondisian While Loops
+```sh
+if input_str.isalpha():
+```
+Pada Kode Program Diatas berfungsi untuk memeriksa apakah string tersebut hanya terdiri dari huruf.
+```sh
+print(f"{input_str} adalah sebuah kata.")
+```
+Pada Kode Program Diatas berfungsi untuk Mencetak bahwa string tersebut adalah sebuah kata.
+```sh
+elif input_str.isdigit():
+```
+Pada Kode Program Diatas berfungsi untuk memeriksa apakah string tersebut hanya terdiri dari angka.
+```sh
+print(f"{input_str} adalah sebuah angka.")
+```
+Mencetak bahwa string tersebut adalah sebuah angka.
+```sh
+print(f"{input_str} adalah kombinasi karakter.")
+```
+Kondisi terakhir adalah untuk Mencetak bahwa string tersebut adalah kombinasi karakter.
+```sh
+input_str = input("Masukkan string (ketik 'selesai' untuk Stop Running): ")
+```
+Dan terakhir merupakan Sebuah kode program untuk Mengambil input string lagi untuk iterasi selanjutnya.
+
+#### Contoh Luaran Kode Program
 
