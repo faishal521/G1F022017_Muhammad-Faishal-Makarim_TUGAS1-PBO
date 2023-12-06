@@ -46,20 +46,23 @@ Pada Gambar diatas merupakan sebuah tampilan dari output yang telah dijalankan p
    a. For Loops
    
    b. While Loops
-
+# Contoh Penggunaan For Loops
 #### 2.1 Apa Itu if Else?
 else if adalah pilihan alternative dari penyeleksian untuk mencari kondisi yang diinginkan, else if memiliki fungsi yang sama seperti pernyataan if dan diletakan setelah pernyataan if. else adalah pilihan terakhir yang akan dijalankan jika semua pilihan tidak memiliki nilai benar (true) pada kondisi yang ada. else merupakan pernyataan opsional untuk digunakan berdasarkan kebutuhan, jika tidak menggunakan pernyataan else maka keseluruhan dari pernyataan if akan diabaikan. Statement if-else digunakan untuk menentukan pilihan dari suatu kondisi yang diberikan, cara kerjanya adalah melakukan perbandingan menggunakan Relational operator dan atau Logical operator. Ada juga Statement if-else bersarang merupakan kombinasi dari beberapa If-else dimana ada beberapa kondisi yang diuji kebenarannya ( if didalam if). Statement else-if untuk menentukan satu kondisi benar dari beberapa kondisi yang tersedia, dan untuk switch-case adalah bentuk lain dari else-if dengan mendaftar kondisi secara vertikal dalam satu kolom sehingga memudahkan dalam hal evaluasi program.
 
-#### 2.2 Kode Program (Penggunaan For Loops)
+#### 2.2 Definisi For Loops
+For Loops membaca data dari suatu array atau himpunan data. Proses perulangan pada for loops, dilakukan berdasarkan array/himpunan data yang telah didefinisikan pada suatu variabel.
+
+#### 2.3 Kode Program (Penggunaan For Loops)
 ![alt text](https://github.com/faishal521/G1F022017_Muhammad-Faishal-Makarim_TUGAS1-PBO/blob/main/public/ifels1.png?raw=true)
 
 Pada Kode Program Diatas merupakan sebuah program Python yang menggunakan perulangan for untuk mengiterasi setiap karakter dalam string "Halo,Faishal!". Selanjutnya, program memeriksa apakah setiap karakter adalah huruf, angka, atau karakter spesial, dan mencetak hasilnya. 
-#### 2.3 Penjelasan Setiap Kode
+#### 2.4 Penjelasan Setiap Kode
 ```sh
 for char in "Halo,Faishal!"
 ```
 Pada kode program diatas merupakan Perulangan, Perulangan ini akan mengiterasi melalui setiap karakter dalam string "Halo,Faishal!"
-##### 2.3.1 Mencetak Karakter Berupa Huruf
+##### 2.4.1 Mencetak Karakter Berupa Huruf
 ```sh
 if char.isalpha():
 ```
@@ -69,7 +72,7 @@ Pada kode program diatas berfungsi untuk memeriksa apakah karakter tersebut adal
 print(f"{char} adalah huruf.")
 ```
 Mencetak bahwa karakter tersebut adalah huruf.
-##### 2.3.2 Mencetak Karakter Berupa Angka
+##### 2.4.2 Mencetak Karakter Berupa Angka
 ```sh
 elif char.isdigit():
 ```
@@ -79,12 +82,22 @@ Pada kode program diatas berfungsi memeriksa apakah karakter tersebut adalah ang
 print(f"{char} adalah angka.")
 ```
 Mencetak bahwa karakter tersebut adalah angka.
-##### 2.3.3 Mencetak Karakter Kondisi yang tidak memenuhi
+##### 2.4.3 Mencetak Karakter Kondisi yang tidak memenuhi
 ```sh
 print(f"{char} adalah karakter spesial.")
 ```
 Pada Kode Program Diatas berfungsi untuk Mencetak bahwa karakter tersebut adalah karakter spesial.
 
-#### 2.4 Contoh Luaran Kode Program
-![alt text](?raw=true)
+#### 2.5 Contoh Luaran Kode Program
+![alt text](https://github.com/faishal521/G1F022017_Muhammad-Faishal-Makarim_TUGAS1-PBO/blob/main/public/ifels1%20Luaran.png?raw=true)
+
 Pada Kode tersebut memberikan output yang menjelaskan setiap karakter dalam string apakah huruf, angka, atau karakter spesial. 
+
+# Contoh Penggunaan While Loops
+#### 2.6 Apa Itu While Loops
+While Loop adalah metode perulangan dimana ada kondisi yang harus dipenuhi supaya looping bisa berjalan terus. While Loop mengulangi eksekusi sub diagram didalamnya sampai terminal kondisi menerima nilai Boolean tertentu. Nilai Boolean tergantung dari sifat dari While Loop. While loops akan mengeksekusi if condition secara terus menerus asalkan condition statement itu menghasilkan pernyataan “True” dan while loops statement dilakukan secara uncountable (secara terus menerus, jika jumlah perulangan tidak ditemukan atau ditentukan).
+
+#### 2.7 Kode Program (Penggunaan While Loops
+![alt text](?raw=true)
+
+
