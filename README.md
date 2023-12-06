@@ -154,4 +154,22 @@ Variabel dan array adalah dua konsep dasar dalam pemrograman komputer yang digun
 - Setiap elemen dalam array diakses melalui indeks (nomor urut), yang dimulai dari 0.
 - Contoh: int nilai[5] = {10, 20, 30, 40, 50}; di mana nilai adalah array yang menyimpan lima nilai bertipe data integer.
 #### 3.2 Kode Program 
+![alt text](https://github.com/faishal521/G1F022017_Muhammad-Faishal-Makarim_TUGAS1-PBO/blob/main/public/array.png?raw=true)
+
+Kode di atas adalah contoh penggunaan list pada Python. List digunakan untuk menyimpan kumpulan nilai atau elemen dalam satu variabel. 
+#### 3.3 Penjelasan Setiap Kode
+```sh
+fruits = ["Apel", "Jeruk", "Pisang", "Mangga"]
+```
+Pada Kode Program diatas berfungsi untuk Membuat sebuah list dengan nama fruits yang berisi empat string: "Apel", "Jeruk", "Pisang", dan "Mangga".
+```sh
+for fruit in fruits:
+```
+Pada Kode Program diatas berfungsi untuk Memulai sebuah perulangan for yang akan mengiterasi melalui setiap elemen dalam list fruits.
+```sh
+print(fruit)
+```
+Pada Kode Program diatas berfungsi untuk Setiap elemen (buah) dalam list akan dicetak. Variabel fruit akan mengambil nilai dari setiap elemen dalam list saat perulangan berlangsung.
+
+#### 3.4 Contoh Luaran Kode Program
 
