@@ -37,3 +37,6 @@ Pada Kode Program Diatas berfungsi agar perulangan berjalan sebanyak 3 kali
 print("Faishal")
 ```
 Dan terakhir pada kode program diatas berfungsi untuk mencetak suatu nama untuk dijadikan sebuah perulangan
+
+#### Contoh Luaran Kode Program
+![alt text](?raw=true)
