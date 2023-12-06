@@ -19,7 +19,21 @@ Perulangan atau disebut Looping adalah bahasa pemrograman dan algoritma yang keg
 ![alt text](https://github.com/faishal521/G1F022017_Muhammad-Faishal-Makarim_TUGAS1-PBO/blob/main/public/looping1.png?raw=true)
 
 Pada Kode Diatas adalah sebuah program Python yang menggunakan perulangan for untuk mencetak angka dari 1 hingga 20. Jika suatu angka habis dibagi 10, maka program akan mencetak "Faishal" sebanyak tiga kali. Jika tidak, program akan mencetak angka tersebut.
-#### 1.3 Pembahasan Setiap Kode
+#### 1.3 Penjelasan Setiap Kode
 ```sh
 for i in range(1, 21):
 ```
+Pada Kode Program Diatas berfungsi agar Perulangan ini akan berjalan dari 1 hingga 20
+```sh
+if i % 10 == 0:
+```
+Pada Kode Program Diatas berfungsi untuk memeriksa apakah nilai i habis dibagi 10
+Jika i habis dibagi 10, masuk ke dalam blok if:
+```sh
+for _ in range(3):
+```
+Pada Kode Program Diatas berfungsi agar perulangan berjalan sebanyak 3 kali
+```sh
+print("Faishal")
+```
+Dan terakhir pada kode program diatas berfungsi untuk mencetak suatu nama untuk dijadikan sebuah perulangan
