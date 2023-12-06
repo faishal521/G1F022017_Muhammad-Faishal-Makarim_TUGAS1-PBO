@@ -38,6 +38,17 @@ print("Faishal")
 ```
 Dan terakhir pada kode program diatas berfungsi untuk mencetak suatu nama untuk dijadikan sebuah perulangan
 
-#### Contoh Luaran Kode Program
+#### 1.4 Contoh Luaran Kode Program
 ![alt text](https://github.com/faishal521/G1F022017_Muhammad-Faishal-Makarim_TUGAS1-PBO/blob/main/public/looping1%20Luaran.png?raw=true)
 Pada Gambar diatas merupakan sebuah tampilan dari output yang telah dijalankan pada sebuah kode program Perulangan tersebut, Bisa Dilihat bahwa Pada nilai i sama dengan 10 dan 20, "Faishal" dicetak sebanyak tiga kali. 
+
+### 2. Buatlah program bebas, dengan menerapkan if else pada:
+   a. For Loops
+   
+   b. While Loops
+
+#### 2.1 Apa Itu if Else?
+else if adalah pilihan alternative dari penyeleksian untuk mencari kondisi yang diinginkan, else if memiliki fungsi yang sama seperti pernyataan if dan diletakan setelah pernyataan if. else adalah pilihan terakhir yang akan dijalankan jika semua pilihan tidak memiliki nilai benar (true) pada kondisi yang ada. else merupakan pernyataan opsional untuk digunakan berdasarkan kebutuhan, jika tidak menggunakan pernyataan else maka keseluruhan dari pernyataan if akan diabaikan. Statement if-else digunakan untuk menentukan pilihan dari suatu kondisi yang diberikan, cara kerjanya adalah melakukan perbandingan menggunakan Relational operator dan atau Logical operator. Ada juga Statement if-else bersarang merupakan kombinasi dari beberapa If-else dimana ada beberapa kondisi yang diuji kebenarannya ( if didalam if). Statement else-if untuk menentukan satu kondisi benar dari beberapa kondisi yang tersedia, dan untuk switch-case adalah bentuk lain dari else-if dengan mendaftar kondisi secara vertikal dalam satu kolom sehingga memudahkan dalam hal evaluasi program.
+
+#### 2.2 Kode Program
+
