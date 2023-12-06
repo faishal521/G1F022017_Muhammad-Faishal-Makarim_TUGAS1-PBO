@@ -50,5 +50,41 @@ Pada Gambar diatas merupakan sebuah tampilan dari output yang telah dijalankan p
 #### 2.1 Apa Itu if Else?
 else if adalah pilihan alternative dari penyeleksian untuk mencari kondisi yang diinginkan, else if memiliki fungsi yang sama seperti pernyataan if dan diletakan setelah pernyataan if. else adalah pilihan terakhir yang akan dijalankan jika semua pilihan tidak memiliki nilai benar (true) pada kondisi yang ada. else merupakan pernyataan opsional untuk digunakan berdasarkan kebutuhan, jika tidak menggunakan pernyataan else maka keseluruhan dari pernyataan if akan diabaikan. Statement if-else digunakan untuk menentukan pilihan dari suatu kondisi yang diberikan, cara kerjanya adalah melakukan perbandingan menggunakan Relational operator dan atau Logical operator. Ada juga Statement if-else bersarang merupakan kombinasi dari beberapa If-else dimana ada beberapa kondisi yang diuji kebenarannya ( if didalam if). Statement else-if untuk menentukan satu kondisi benar dari beberapa kondisi yang tersedia, dan untuk switch-case adalah bentuk lain dari else-if dengan mendaftar kondisi secara vertikal dalam satu kolom sehingga memudahkan dalam hal evaluasi program.
 
-#### 2.2 Kode Program
+#### 2.2 Kode Program (Penggunaan For Loops)
+![alt text](https://github.com/faishal521/G1F022017_Muhammad-Faishal-Makarim_TUGAS1-PBO/blob/main/public/ifels1.png?raw=true)
 
+Pada Kode Program Diatas merupakan sebuah program Python yang menggunakan perulangan for untuk mengiterasi setiap karakter dalam string "Halo,Faishal!". Selanjutnya, program memeriksa apakah setiap karakter adalah huruf, angka, atau karakter spesial, dan mencetak hasilnya. 
+#### 2.3 Penjelasan Setiap Kode
+```sh
+for char in "Halo,Faishal!"
+```
+Pada kode program diatas merupakan Perulangan, Perulangan ini akan mengiterasi melalui setiap karakter dalam string "Halo,Faishal!"
+##### 2.3.1 Mencetak Karakter Berupa Huruf
+```sh
+if char.isalpha():
+```
+Pada kode program diatas berfungsi untuk memeriksa apakah karakter tersebut adalah huruf.
+##### _Jika Iya Maka :_
+```sh
+print(f"{char} adalah huruf.")
+```
+Mencetak bahwa karakter tersebut adalah huruf.
+##### 2.3.2 Mencetak Karakter Berupa Angka
+```sh
+elif char.isdigit():
+```
+Pada kode program diatas berfungsi memeriksa apakah karakter tersebut adalah angka.
+##### _Jika Iya Maka :_
+```sh
+print(f"{char} adalah angka.")
+```
+Mencetak bahwa karakter tersebut adalah angka.
+##### 2.3.3 Mencetak Karakter Kondisi yang tidak memenuhi
+```sh
+print(f"{char} adalah karakter spesial.")
+```
+Pada Kode Program Diatas berfungsi untuk Mencetak bahwa karakter tersebut adalah karakter spesial.
+
+#### 2.4 Contoh Luaran Kode Program
+![alt text](?raw=true)
+Pada Kode tersebut memberikan output yang menjelaskan setiap karakter dalam string apakah huruf, angka, atau karakter spesial. 
